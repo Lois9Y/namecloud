@@ -1,9 +1,4 @@
 
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-}
 
 plugins {
     id 'java'
