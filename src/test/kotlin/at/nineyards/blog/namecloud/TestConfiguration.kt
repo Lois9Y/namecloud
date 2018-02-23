@@ -1,4 +1,4 @@
-package at.nineyards.blog.namecloud.service
+package at.nineyards.blog.namecloud
 
 import com.github.fakemongo.Fongo
 import com.mongodb.Mongo
@@ -20,7 +20,7 @@ class TestConfiguration : AbstractMongoConfiguration() {
 
 
     override fun mongo(): Mongo {
-        logger.info("Instantiating Fongo with name $databaseName.")
+        logger.info("Instantiating fake db with name $databaseName.")
         return Fongo(databaseName).mongo
     }
 

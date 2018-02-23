@@ -11,5 +11,5 @@ class FirstNameServiceImpl :FirstNameService {
     @Autowired
     lateinit var firstNameRepository: FirstNameRepository
 
-    override fun getTop10(): List<FirstName> = firstNameRepository.findTop10ByOrderByRankDesc()
+    override fun getTop10(): List<FirstName> = firstNameRepository.findTop10ByOrderByRankAsc()
 }

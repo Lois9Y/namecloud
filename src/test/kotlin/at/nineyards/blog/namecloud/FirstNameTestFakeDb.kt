@@ -1,4 +1,4 @@
-package at.nineyards.blog.namecloud.service
+package at.nineyards.blog.namecloud
 
 import at.nineyards.blog.namecloud.model.FirstName
 import at.nineyards.blog.namecloud.repository.FirstNameRepository
